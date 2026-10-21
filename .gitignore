@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env and secrets
+.env
+
+# StakPeek local data (indexes, caches)
+.stakpeek/
+*.faiss
+
+# Frontend (later)
+node_modules/
