@@ -3,7 +3,7 @@ name = "stakpeek"
 version = "0.1.0"
 description = "Ask quietly. Your codebase answers."
 requires-python = ">=3.10"
-dependencies = []
+dependencies = ["tree-sitter>=0.23", "tree-sitter-c>=0.23"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
