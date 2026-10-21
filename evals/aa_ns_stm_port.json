@@ -1,0 +1,20 @@
+[
+  {"q": "which function handles the UART receive interrupt",
+   "expect": ["USART2_IRQHandler", "HAL_UART_RxCpltCallback"]},
+  {"q": "how does the firmware receive a command over serial",
+   "expect": ["HAL_UART_RxCpltCallback", "commands_update"]},
+  {"q": "what happens on an emergency stop",
+   "expect": ["alignment_emergency_stop", "hatch_emergency_stop"]},
+  {"q": "where does the hatch open",
+   "expect": ["hatch_open"]},
+  {"q": "how is a fault latched and cleared",
+   "expect": ["system_fault", "system_clear_fault"]},
+  {"q": "limit switch handling during calibration",
+   "expect": ["limit_hit_confirmed", "alignment_start_cal"]},
+  {"q": "how are the motors enabled and disabled",
+   "expect": ["enable_motors", "disable_motors"]},
+  {"q": "what turns the fan off after a delay",
+   "expect": ["relay_schedule_fan_off", "relay_update"]},
+  {"q": "what is the startup initialization sequence",
+   "expect": ["main"]}
+]
