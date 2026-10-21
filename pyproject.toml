@@ -8,6 +8,7 @@ dependencies = [
     "tree-sitter-c>=0.23",
     "numpy",
     "sentence-transformers",
+    "openai",
 ]
 
 [project.optional-dependencies]

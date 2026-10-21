@@ -16,5 +16,7 @@
   {"q": "what turns the fan off after a delay",
    "expect": ["relay_schedule_fan_off", "relay_update"]},
   {"q": "what is the startup initialization sequence",
-   "expect": ["main"]}
+   "expect": ["main"]},
+  {"q": "how does the firmware parse an incoming UART command?",
+   "expect": ["HAL_UART_RxCpltCallback", "commands_update"]}
 ]
